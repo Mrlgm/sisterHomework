@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  justify-content: space-around;
+  background: rgba(255,255,255,0.5);
+}
+
+ul>li>img{
+  height: 45px;
+}
+
+.wp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.page {
+  color: #0166FF;
+  text-align: center;
+}
+
+.page1 {
+  background: url(./images/背景1.png);
+  background-size: cover;
+  background-position:center;
+}
+.page1>img{
+  margin-top: 100px;
+  height: 150px;
+}
+.page1>p{
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.page2 {
+  background: url(./images/背景2.png);
+  background-size: cover;
+}
+
+.page3 {
+  background: url(./images/背景3.png);
+  background-size: cover;
+}
+
+.page4 {
+  background: url(./images/背景4.png);
+  background-size: cover;
+}
+
+.page5 {
+  background: url(./images/背景5.png);
+  background-size: cover;
+}
+
+.page6 {
+  background: url(./images/背景6.png);
+  background-size: cover;
+}
+
+#next{
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-25px);
+}
+#next>img{
+  width: 50px;
+}
